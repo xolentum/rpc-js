@@ -1,7 +1,7 @@
 {
-  "name": "@arqma/arqma-rpc",
+  "name": "@xolentum/xolentum-rpc",
   "version": "0.2.1",
-  "description": "ArQmA RPC Daemon and RPC Wallet Javascript Library",
+  "description": "Xolentum RPC Daemon and RPC Wallet Javascript Library",
   "main": "index.js",
   "directories": {
     "doc": "docs",
@@ -45,17 +45,17 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arqma/arqma-rpc-js.git"
+    "url": "git+https://github.com/xolentum/xolentum-rpc-js.git"
   },
   "keywords": [
-    "ArQmA",
+    "Xolentum",
     "RPC",
     "Daemon",
     "Wallet",
     "client"
   ],
   "bugs": {
-    "url": "https://github.com/arqma/arqma-rpc-js/issues"
+    "url": "https://github.com/xolentum/xolentum-rpc-js/issues"
   },
-  "homepage": "https://github.com/arqma/arqma-rpc-js#readme"
+  "homepage": "https://github.com/xolentum/xolentum-rpc-js#readme"
 }

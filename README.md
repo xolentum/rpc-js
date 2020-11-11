@@ -1,6 +1,6 @@
-# ArQmA RPC Daemon and RPC Wallet Javascript Library
+# Xolentum RPC Daemon and RPC Wallet Javascript Library
 
-[![NPM](https://nodei.co/npm/@arqma/arqma-rpc.png)](https://nodei.co/npm/@arqma/arqma-rpc/)
+[![NPM](https://nodei.co/npm/@xolentum/xolentum-rpc.png)](https://nodei.co/npm/@xolentum/xolentum-rpc/)
 
 Javascript library to interact with RPC Daemon and RPC Wallet.\
 All requests are queued. Most functions are async.
@@ -19,9 +19,9 @@ Once initialized simply use the query functions.
 
 
 ## RPCDaemon without Digest Authentication
-Please refer to the [documentation](https://arqma.github.io/arqma-rpc-js/module-RPCDaemon.html) and look at the unit tests.
+Please refer to the [documentation](https://xolentum.github.io/xolentum-rpc-js/module-RPCDaemon.html) and look at the unit tests.
 ```javascript
-const rpcDaemon = require('@arqma/arqma-rpc').RPCDaemon
+const rpcDaemon = require('@xolentum/xolentum-rpc').RPCDaemon
 
 const daemonClient = rpcDaemon.createDaemonClient({
   url: 'http://127.0.0.1:39994'
@@ -32,9 +32,9 @@ daemonClient.sslRejectUnauthorized(false)
 
 
 ## RPCDaemon with Digest Authentication
-Please refer to the [documentation](https://arqma.github.io/arqma-rpc-js/module-RPCDaemon.html) and look at the unit tests.
+Please refer to the [documentation](https://xolentum.github.io/xolentum-rpc-js/module-RPCDaemon.html) and look at the unit tests.
 ```javascript
-const rpcDaemon = require('@arqma/arqma-rpc').RPCDaemon
+const rpcDaemon = require('@xolentum/xolentum-rpc').RPCDaemon
 
 const daemonClient = rpcDaemon.createDaemonClient({
   url: 'http://127.0.0.1:39994',
@@ -47,9 +47,9 @@ daemonClient.sslRejectUnauthorized(false)
 
 
 ## RPCWallet without Digest Authentication
-Please refer to the [documentation](https://arqma.github.io/arqma-rpc-js/module-RPCWallet.html) and look at the unit tests.
+Please refer to the [documentation](https://xolentum.github.io/xolentum-rpc-js/module-RPCWallet.html) and look at the unit tests.
 ```javascript
-const rpcWallet = require('@arqma/arqma-rpc').RPCWallet
+const rpcWallet = require('@xolentum/xolentum-rpc').RPCWallet
 
 const walletClient = rpcWallet.createWalletClient({
   url: 'http://127.0.0.1:20000'
@@ -60,9 +60,9 @@ walletClient.sslRejectUnauthorized(false)
 
 
 ## RPCWallet with Digest Authentication
-Please refer to the [documentation](https://arqma.github.io/arqma-rpc-js/module-RPCWallet.html) and look at the unit tests.
+Please refer to the [documentation](https://xolentum.github.io/xolentum-rpc-js/module-RPCWallet.html) and look at the unit tests.
 ```javascript
-  const rpcWallet = require('@arqma/arqma-rpc').RPCWallet
+  const rpcWallet = require('@xolentum/xolentum-rpc').RPCWallet
 
   const walletClient = rpcWallet.createWalletClient({
   url: 'http://127.0.0.1:20000',

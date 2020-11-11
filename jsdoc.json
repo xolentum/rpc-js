@@ -13,15 +13,15 @@
   ],
   "recurseDepth": 2,
   "template": {
-  "title": "ArQmA Javascript RPC Library",
-  "shortTitle": "ArQmA RPC JS",
+  "title": "Xolentum Javascript RPC Library",
+  "shortTitle": "Xolentum RPC JS",
   "links": [
     {
-      "github": "https://github.com/arqma/arqma-rpc-js",
+      "github": "https://github.com/xolentum/xolentum-rpc-js",
       "title": "View it on Github"
     },
     {
-      "npm": "https://www.npmjs.com/package/@arqma/arqma-rpc",
+      "npm": "https://www.npmjs.com/package/@xolentum/xolentum-rpc",
       "title": "View it on NPM",
       "size": 19
     }
