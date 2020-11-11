@@ -25,7 +25,7 @@ Please refer to the [documentation](https://xolentum.github.io/xolentum-rpc-js/m
 const rpcDaemon = require('@xolentum/xolentum-rpc').RPCDaemon
 
 const daemonClient = rpcDaemon.createDaemonClient({
-  url: 'http://127.0.0.1:39994'
+  url: 'http://127.0.0.1:13580'
 })
 // When using a self signed certificate with HTTPS you need to set the function sslRejectUnauthorized to false.
 daemonClient.sslRejectUnauthorized(false)
@@ -39,7 +39,7 @@ Please refer to the [documentation](https://xolentum.github.io/xolentum-rpc-js/m
 const rpcDaemon = require('@xolentum/xolentum-rpc').RPCDaemon
 
 const daemonClient = rpcDaemon.createDaemonClient({
-  url: 'http://127.0.0.1:39994',
+  url: 'http://127.0.0.1:13580',
   username: 'user',
   password: 'pass'
 })
