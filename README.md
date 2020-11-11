@@ -93,5 +93,5 @@ npm test
 
 [BSD-3-Clause License](LICENSE)
 
-Copyright (c) 2020, The Xolentum Project
+Copyright (c) 2020, The Xolentum Project  
 Copyright (c) 2019, The ArQmA Network
