@@ -1,7 +1,7 @@
 {
-  "name": "@xolentum/xolentum-rpc",
-  "version": "0.2.1",
-  "description": "Xolentum RPC Daemon and RPC Wallet Javascript Library",
+  "name": "@xolentum/xolentum-rpc-js",
+  "version": "0.0.1",
+  "description": "Xolentum JavaScript wrapper for Daemon RPC and Wallet RPC",
   "main": "index.js",
   "directories": {
     "doc": "docs",
@@ -41,7 +41,7 @@
     "test-wallet-validate-address": "mocha -t 60000 ./test/wallet/walletValidateAddress.js",
     "generate-docs": "jsdoc ./lib/rpcWallet.js ./lib/rpcDaemon.js --readme ./README.md -c ./jsdoc.json -d docs --verbose"
   },
-  "author": "SmajeNz0",
+  "author": "The Xolentum Developers",
   "license": "MIT",
   "repository": {
     "type": "git",
