@@ -1,11 +1,11 @@
-# Xolentum RPC Daemon and RPC Wallet Javascript Library
+# Xolentum RPC JS
 
-[![NPM](https://nodei.co/npm/@xolentum/xolentum-rpc.png)](https://nodei.co/npm/@xolentum/xolentum-rpc/)
+## About 
+
+[![NPM](https://nodei.co/npm/@xolentum/xolentum-rpc.png)](https://nodei.co/npm/@xolentum/xolentum-rpc-js/)
 
 Javascript library to interact with RPC Daemon and RPC Wallet.\
 All requests are queued. Most functions are async.
-
-Since version 0.2.0 the RPCDaemon and RPCWallet objects are created using a factory function instead of declaring the object with "new".
 
 There is no need to connect and disconnect the underlying socket anymore.
 
@@ -18,7 +18,8 @@ Digest authentication is activated as soon as a username and a password is suppl
 Once initialized simply use the query functions.
 
 
-## RPCDaemon without Digest Authentication
+### Daemon RPC without Digest Authentication
+
 Please refer to the [documentation](https://xolentum.github.io/xolentum-rpc-js/module-RPCDaemon.html) and look at the unit tests.
 ```javascript
 const rpcDaemon = require('@xolentum/xolentum-rpc').RPCDaemon
@@ -31,7 +32,8 @@ daemonClient.sslRejectUnauthorized(false)
 ```
 
 
-## RPCDaemon with Digest Authentication
+### Daemon RPC with Digest Authentication
+
 Please refer to the [documentation](https://xolentum.github.io/xolentum-rpc-js/module-RPCDaemon.html) and look at the unit tests.
 ```javascript
 const rpcDaemon = require('@xolentum/xolentum-rpc').RPCDaemon
@@ -46,7 +48,8 @@ daemonClient.sslRejectUnauthorized(false)
 ```
 
 
-## RPCWallet without Digest Authentication
+### Wallet RPC without Digest Authentication
+
 Please refer to the [documentation](https://xolentum.github.io/xolentum-rpc-js/module-RPCWallet.html) and look at the unit tests.
 ```javascript
 const rpcWallet = require('@xolentum/xolentum-rpc').RPCWallet
@@ -59,7 +62,8 @@ walletClient.sslRejectUnauthorized(false)
 ```
 
 
-## RPCWallet with Digest Authentication
+### Wallet RPC with Digest Authentication
+
 Please refer to the [documentation](https://xolentum.github.io/xolentum-rpc-js/module-RPCWallet.html) and look at the unit tests.
 ```javascript
   const rpcWallet = require('@xolentum/xolentum-rpc').RPCWallet
@@ -73,12 +77,21 @@ Please refer to the [documentation](https://xolentum.github.io/xolentum-rpc-js/m
 walletClient.sslRejectUnauthorized(false)
 ```
 
-## Generate JSDoc documentation
-```
+### Generate JSDoc documentation
+
+```sh
 npm run generate-docs
 ```
 
-## Get unit tests list
-```
+### Get unit tests list
+
+```sh
 npm test
 ```
+
+## License
+
+[BSD-3-Clause License](LICENSE)
+
+Copyright (c) 2020, The Xolentum Project
+Copyright (c) 2019, The ArQmA Network
