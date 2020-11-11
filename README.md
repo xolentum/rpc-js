@@ -2,7 +2,7 @@
 
 ## About 
 
-[![NPM](https://nodei.co/npm/@xolentum/xolentum-rpc.png)](https://nodei.co/npm/@xolentum/xolentum-rpc-js/)
+[![NPM](https://nodei.co/npm/@xolentum/xolentum-rpc-js.png)](https://nodei.co/npm/@xolentum/xolentum-rpc-js/)
 
 Javascript library to interact with RPC Daemon and RPC Wallet.\
 All requests are queued. Most functions are async.
