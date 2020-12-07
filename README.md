@@ -20,7 +20,7 @@ Once initialized simply use the query functions.
 
 ### Daemon RPC without Digest Authentication
 
-Please refer to the [documentation](https://xolentum.github.io/xolentum-rpc-js/module-RPCDaemon.html) and look at the unit tests.
+Please refer to the [documentation](https://xolentum.github.io/rpc-js/module-RPCDaemon.html) and look at the unit tests.
 ```javascript
 const rpcDaemon = require('@xolentum/xolentum-rpc').RPCDaemon
 
@@ -34,7 +34,7 @@ daemonClient.sslRejectUnauthorized(false)
 
 ### Daemon RPC with Digest Authentication
 
-Please refer to the [documentation](https://xolentum.github.io/xolentum-rpc-js/module-RPCDaemon.html) and look at the unit tests.
+Please refer to the [documentation](https://xolentum.github.io/rpc-js/module-RPCDaemon.html) and look at the unit tests.
 ```javascript
 const rpcDaemon = require('@xolentum/xolentum-rpc').RPCDaemon
 
@@ -50,7 +50,7 @@ daemonClient.sslRejectUnauthorized(false)
 
 ### Wallet RPC without Digest Authentication
 
-Please refer to the [documentation](https://xolentum.github.io/xolentum-rpc-js/module-RPCWallet.html) and look at the unit tests.
+Please refer to the [documentation](https://xolentum.github.io/rpc-js/module-RPCWallet.html) and look at the unit tests.
 ```javascript
 const rpcWallet = require('@xolentum/xolentum-rpc').RPCWallet
 
@@ -64,7 +64,7 @@ walletClient.sslRejectUnauthorized(false)
 
 ### Wallet RPC with Digest Authentication
 
-Please refer to the [documentation](https://xolentum.github.io/xolentum-rpc-js/module-RPCWallet.html) and look at the unit tests.
+Please refer to the [documentation](https://xolentum.github.io/rpc-js/module-RPCWallet.html) and look at the unit tests.
 ```javascript
   const rpcWallet = require('@xolentum/xolentum-rpc').RPCWallet
 

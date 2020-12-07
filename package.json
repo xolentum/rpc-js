@@ -45,7 +45,7 @@
   "license": "BSD-3-Clause License",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xolentum/xolentum-rpc-js.git"
+    "url": "git+https://github.com/xolentum/rpc-js.git"
   },
   "keywords": [
     "Xolentum",
@@ -55,7 +55,7 @@
     "client"
   ],
   "bugs": {
-    "url": "https://github.com/xolentum/xolentum-rpc-js/issues"
+    "url": "https://github.com/xolentum/rpc-js/issues"
   },
-  "homepage": "https://github.com/xolentum/xolentum-rpc-js#readme"
+  "homepage": "https://github.com/xolentum/rpc-js#readme"
 }
