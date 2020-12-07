@@ -1,12 +1,11 @@
 'use strict'
 
 exports = module.exports = {
-  daemonAddress: process.env.DAEMON_ADDRESS || 'http://127.0.0.1:39994',
+  daemonAddress: process.env.DAEMON_ADDRESS || 'http://127.0.0.1:33580',
   daemonUsername: process.env.DAEMON_USER || 'user',
   daemonPassword: process.env.DAEMON_PASSWORD || 'pass',
-  blockHash: '9398b5cc30d28d282316e70e98efab2c569e9fac8c88ca5dad4a58555401b3da',
-  blockHeight: 1,
-  stagenetWalletAddress: 'as2uPW7Te7MGTZVxhSmxN4hqugxrgHdRgEBcz6ci4ewFKSHhEFyP6mJBrn52p6g8pyD92bkgGX9f8YkjN1VALvgF1yFx8BaQ2',
-  txids: ['8d63cfb68c053f2bcfe54d8792a24dbb46df15399f18c9814e2aa914c5dabc3b'],
-  spent_key: '8618320bf108e2827f927c7f7300b47bc21ca7708fd800b09a74070face15e3d'
+  blockHash: '2046a16a6ddd389d74112e33daad7325d3fd0dd1680689895d1ef72624f351f8',
+  blockHeight: 3700,
+  stagenetWalletAddress: 'XwnJjWJGxXkZwNHz6vpSeujbMni8sJFVu4y9WMTQ3fxr3S5QnzWwQ5KQRux2vjmYkH5ymPvRjsEP3BRoqsKvgxrm2FoyKGWEo',
+  txids: ['4d34ab5f1950300a9d832d9c386a9d560fce62abb6e7e6e0e5b4c3e260b155a2']
 }

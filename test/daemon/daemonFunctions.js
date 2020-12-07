@@ -93,14 +93,6 @@ describe('RPCDaemon tests functions', function () {
     return expect(daemonClient.getBlockHeadersRange(opts))
       .to.eventually.have.property('headers')
   })
-  it('getBlocksRange with heights should return blocks', () => {
-    const opts = {
-      start_height: config.blockHeight,
-      end_height: config.blockHeight + 1
-    }
-    return expect(daemonClient.getBlocksRange(opts))
-      .to.eventually.have.property('blocks')
-  })
   it('getBlockTemplate should return status OK', () => {
     const opts = {
       wallet_address: config.stagenetWalletAddress,
@@ -197,14 +189,7 @@ describe('RPCDaemon tests functions', function () {
       prune: true
     }
     return expect(daemonClient.otherGetTransactions(opts))
-      .to.eventually.have.nested.property('txs[0].block_height', 17835)
-  })
-  it('otherIsKeyImageSpent should return 1', () => {
-    const opts = {
-      key_images: [config.spent_key]
-    }
-    return expect(daemonClient.otherIsKeyImageSpent(opts))
-      .to.eventually.have.nested.property('spent_status[0]', 1)
+      .to.eventually.have.nested.property('txs[0].block_height', 3780)
   })
   it('otherOutPeers should return OK', () => {
     const opts = {
@@ -298,7 +283,7 @@ describe('RPCDaemon tests functions', function () {
     return expect(daemonClient.submitBlock(opts))
       .to.eventually.be.rejected
       .and.be.an.instanceOf(Error)
-      .and.have.property('code', -7)
+      .and.have.property('code', -6)
   })
   it('syncInfo should return OK', () => {
     return expect(daemonClient.syncInfo())
