@@ -1,6 +1,6 @@
 {
   "name": "@xolentum/xolentum-rpc-js",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Xolentum JavaScript wrapper for Daemon RPC and Wallet RPC",
   "main": "index.js",
   "directories": {
