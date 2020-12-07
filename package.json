@@ -41,8 +41,8 @@
     "test-wallet-validate-address": "mocha -t 60000 ./test/wallet/walletValidateAddress.js",
     "generate-docs": "jsdoc ./lib/rpcWallet.js ./lib/rpcDaemon.js --readme ./README.md -c ./jsdoc.json -d docs --verbose"
   },
-  "author": "The Xolentum Developers",
-  "license": "MIT",
+  "author": "The Xolentum Project",
+  "license": "BSD-3-Clause License",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/xolentum/xolentum-rpc-js.git"
